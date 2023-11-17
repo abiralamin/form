@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Sign Up Form</h1>
+    <hr style="height: 10px; background-color: #000" />
+    <label for="user">Name: </label>
+    <input type="text" id="user" placeholder="Username" />
+    <br /><br />
+
+    <label for="email">Email: </label>
+    <input type="email" id="email" placeholder="Email" />
+    <br /><br />
+
+    <label for="password">Password: </label>
+    <input type="password" id="password" placeholder="Password" />
+    <br /><br />
+
+    <label for="phone">Phone: </label>
+    <select>
+      <option>+880</option>
+      <option>+890</option>
+      <option>+990</option>
+      <option>+110</option>
+    </select>
+    <input type="text" id="phone" placeholder="Phone" />
+    <br /><br />
+
+    <label>Country:</label>
+    <input list="country" />
+    <datalist id="country">
+      <option value="Bangladesh"></option>
+      <option value="India"></option>
+      <option value="Pakistan"></option>
+    </datalist>
+
+    Gender:
+    <input type="radio" name="gender" id="male" />
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" />
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="other" />
+    <label for="other">Other</label>
+    <br /><br />
+
+    <label for="date">Date of Birth:</label>
+    <input type="date" id="date" />
+    <br /><br />
+
+    <label>Time:</label>
+    <input type="time" />
+    <br /><br />
+
+    <label>Color:</label>
+    <input type="color" />
+    <br /><br />
+
+    <label>Choose Your Photo:</label>
+    <input type="file" />
+    <br /><br />
+
+    <input type="checkbox" name="vehicle" />
+    <label>Car</label>
+    <input type="checkbox" name="vehicle" />
+    <label>Bike</label>
+    <br /><br />
+
+    <textarea rows="10" cols="20">Comment:</textarea>
+    <br /><br />
+
+    <input type="submit" />
+    <input type="reset" />
+    <br /><br />
+
+    <marquee>Hello World</marquee>
+  </body>
+</html>
